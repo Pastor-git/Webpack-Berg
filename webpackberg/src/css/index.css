@@ -1,0 +1,52 @@
+/* $blueColor: rgb(25, 53, 129);
+$generalFontSize: 16px;
+$bigFontSize: $generalFontSize*1.5;
+$myOwnMargin: 120px 120px 120px 120px;
+$myPadding: 12vh 19vw;
+$opacity: 0.3*1.5; */
+
+
+/* @mixin example() {
+    color: $blueColor; 
+    font-size: $generalFontSize*2;
+}
+@mixin center(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+body {
+    background-color: lightseagreen;
+}
+
+div {
+    background-color: lightseagreen;
+}
+/* h1{
+    @include example();
+} */
+
+button{
+    /* @include example(); */
+    /* margin: $myOwnMargin; */
+    /* width: 100vw; */
+    /* @include center(); */
+    color: chocolate;
+}
+
+/* nav {
+    $greenColor: green;
+    li{ $brownColor: brown; color: $brownColor; }
+    h3{ color: white;}
+    span { color: $greenColor}
+    .example {text-transform: uppercase;}
+} */
+ul{
+    color: yellow;
+}
+/* .wrapper{
+    &__examp{ @include example();  width: 100vw; @include center();}
+    a{color: white; 
+        &:hover{color:black}
+    }
+} */
